@@ -15,9 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from ratings.views import (ModuleInstanceList, ProfessorRating, ProfessorModuleRating, RateProfessor, RegisterUser, LoginUser, LogoutUser)
+from ratings.views import (ModuleInstanceList, ProfessorRating, ProfessorModuleRating, RateProfessor, RegisterUser, LoginUser, LogoutUser, main)
 
 urlpatterns = [
+    path('', main, name='home'),
     path('admin/', admin.site.urls),
     path('list/', ModuleInstanceList.as_view(), name='module-instance-list'),
     path('view/', ProfessorRating.as_view(), name='view-professor-ratings'),

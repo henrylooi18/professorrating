@@ -3,11 +3,17 @@ from django.db.models import Avg
 from django.db.models.functions import Round
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
+from django.http import HttpResponse
 from rest_framework.response import Response
 from rest_framework.permissions import IsAuthenticated, AllowAny
 from rest_framework.views import APIView
 from rest_framework.authtoken.models import Token
 from .models import Professor, Module, ModuleInstance, Rating
+
+
+# home page (to ensure the server is running)
+def main(request):
+    return HttpResponse("The Django server is currently running...")
 
 
 # register
