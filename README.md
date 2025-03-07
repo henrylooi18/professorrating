@@ -1,4 +1,4 @@
-# I. Instructions on using the client application on the command line interface (CLI)
+### I. Instructions on using the client application on the command line interface (CLI)
 1. Upon running client.py, you are prompted with:
 
 ===== Professor Rating (Command Line Interface) =====
@@ -19,16 +19,16 @@ Available Commands:
 3. Input the commands to run it.
 
 
-# II. The name of your pythonanywhere domain.
+### II. The name of your pythonanywhere domain.
 https://sc23ysl.pythonanywhere.com
 
 
-# III. The password instructors must use to login to the admin account on your service.
+### III. The password instructors must use to login to the admin account on your service.
 username: admin
 password: adminpw123
 
 
-# IV. Any other information instructors need to know in order to use your client.
+### IV. Any other information instructors need to know in order to use your client.
 - Users can input 'login', 'average', 'rate' and the command line will prompt the proper usage, (eg. Usage: average <professor_id> <module_code>)
 - Users must be logged in to rate a professor
 - Users can only log out if they are logged in
