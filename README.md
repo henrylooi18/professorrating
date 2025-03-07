@@ -31,5 +31,5 @@ password: adminpw123
 # IV. Any other information instructors need to know in order to use your client.
 - Users can input 'login', 'average', 'rate' and the command line will prompt the proper usage, (eg. Usage: average <professor_id> <module_code>)
 - Users must be logged in to rate a professor
-- Users can only log out if they are logged in.
-- Guest users (not logged in) can use the following commands: 'register', 'login', 'list', 'view', 'average' and 'exit'.
+- Users can only log out if they are logged in
+- Guest users (not logged in) can use the following commands: 'register', 'login', 'list', 'view', 'average' and 'exit'
