@@ -2,7 +2,7 @@ import requests
 import json
 import getpass
 
-BASE_URL = "http://127.0.0.1:8000"  # change this URL when deploying
+BASE_URL = "https://sc23ysl.pythonanywhere.com"  # change this URL when deploying
 TOKEN = None
 SESSION = requests.Session()
 
